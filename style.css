@@ -7,11 +7,16 @@
     font-size: 60px;
   }
 
+  .navbar-light .navbar-nav .nav-link {
+    display: inline-block;
+    white-space: nowrap;
+}
 
 
 
-  button {
-    border-radius: 35px!important;
+
+  button.btn {
+    border-radius: 35px;
     background: yellow;
     text-transform: uppercase;
     font-weight: 400px;
@@ -21,3 +26,47 @@
     font-weight: 600;
     color: black;
   }
+
+  .card-header {
+    padding-left: 0;
+    background: transparent;
+    color: gray;
+    
+  }
+
+  .card {
+    background: transparent;
+    border: none;
+  }
+
+  .card-title {
+    margin-top: .5em;
+  }
+
+  .sub-card img {
+    width: 100%;
+  }
+
+  .sub-card p {
+    display: inline-block;
+    margin-left: 1em;
+
+  }
+
+  .sub-3-card .trio{
+    padding: 1em 1em;
+  }
+
+  .trio img {
+    width: 100%;
+  }
+
+  .circle {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }

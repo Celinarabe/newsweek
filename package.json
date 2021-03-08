@@ -1,0 +1,22 @@
+{
+  "name": "newsweek",
+  "version": "1.0.0",
+  "description": "odin proj",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Celinarabe/newsweek.git"
+  },
+  "author": "celina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Celinarabe/newsweek/issues"
+  },
+  "homepage": "https://github.com/Celinarabe/newsweek#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
+}
