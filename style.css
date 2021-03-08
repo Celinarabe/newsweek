@@ -34,15 +34,23 @@
   }
 
   #mainNav * {
-   
     color: black;
   }
 
   nav a {
     font-weight: 700;
-    text-transform: uppercase;
     color: black;
     margin-right: 1em;
+    letter-spacing: 0;
+  }
+
+  #subNav {
+    padding: 0 .5em;
+    text-transform: uppercase;
+  }
+
+  #subNav a {
+    font-weight: 400;
   }
 
   .card-header {
