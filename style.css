@@ -1,3 +1,8 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: -1px;
+
+}
 
   .container{
       max-width: 1310px;
@@ -13,10 +18,13 @@
 }
 
 #topBar {
-  font-family: 'Shippori Mincho B1', serif;
+  
+  background: red;
 }
 
-
+.border-bot{
+  border-bottom: solid gray;
+}
 
   button.btn {
     border-radius: 35px;
@@ -26,8 +34,15 @@
   }
 
   #mainNav * {
-    font-weight: 600;
+   
     color: black;
+  }
+
+  nav a {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+    margin-right: 1em;
   }
 
   .card-header {
