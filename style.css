@@ -1,0 +1,23 @@
+
+  .container{
+      max-width: 1310px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+
+
+
+  button {
+    border-radius: 35px!important;
+    background: yellow;
+    text-transform: uppercase;
+    font-weight: 400px;
+  }
+
+  #mainNav * {
+    font-weight: 600;
+    color: black;
+  }
